@@ -8,8 +8,8 @@
 
 
 udapy read.Agldt files="$1" \
-  .HelloWorld  \
-  write.Conllu > "$HOME/Desktop/results.conllu" \
+  .DetectCrasis  \
+  write.Conllu > "results.conllu" \
 
   # TODO: Check CompoundConj
   # TODO: Check .DetectCrasis on Pe (local module)
